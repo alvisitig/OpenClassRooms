@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListeClients</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Age</th>
+        </tr>
+        @foreach (OC_2018_MVC_01.Models.Client client in ViewData["Clients"] as List<OC_2018_MVC_01.Models.Client>)
+        {
+            <tr>
+                <td>@client.Nom</td>
+                <td>@client.Age</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
