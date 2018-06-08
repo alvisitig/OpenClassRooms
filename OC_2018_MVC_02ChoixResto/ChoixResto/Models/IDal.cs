@@ -10,5 +10,6 @@ namespace ChoixResto.Models
     {
         void CreerRestaurant(string nom, string telephone);
         List<Resto> ObtientTousLesRestaurants();
+        void ModifierRestaurant(int id, string nom, string telephone);
     }
 }
