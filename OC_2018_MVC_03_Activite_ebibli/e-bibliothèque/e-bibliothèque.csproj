@@ -128,10 +128,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Auteur.cs" />
-    <Compile Include="Models\BdContext.cs" />
-    <Compile Include="Models\Clients.cs" />
-    <Compile Include="Models\Dal.cs" />
-    <Compile Include="Models\IDal.cs" />
+    <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Livre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
